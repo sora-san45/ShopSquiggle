@@ -74,6 +74,7 @@ ul li {
 
 li:hover{
     cursor: pointer;
-    border: solid;
-    border-color: rgb(134, 94, 103);
+    outline: solid;
+    background-color: rgb(248, 242, 242);
+    outline-color: rgb(134, 94, 103);
 }
