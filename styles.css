@@ -36,12 +36,13 @@ img {
     background-color: rgb(255, 255, 255);
     margin: 10px;
     height:40px;
+    width: 200px;
 }
 
 #add-button {
     background-color: rgb(134, 94, 103);
     color: bisque;
-    width: 170px;
+    width: 200px;
     border: none;
     border-radius: 10px;
     height: 40px;
