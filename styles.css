@@ -1,34 +1,60 @@
-*{
-    margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-body{
+body {
     background-color: rgb(241, 229, 221);
 }
-.body-container{
+
+.body-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-img{
-    height:200px;
-    width:200px;
-    margin-top:20px;
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
 }
-#text-field{
-    height:30px;
+
+#text-field {
+    height: 30px;
     border: solid;
-    border-color:rgb(134, 94, 103);
+    border-color: rgb(134, 94, 103);
     border-radius: 10px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin: 10px;
 }
-#add-button{
+
+#add-button {
     background-color: rgb(134, 94, 103);
     color: bisque;
-    width:160px;
+    width: 160px;
     border: none;
     border-radius: 10px;
     height: 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    background-color: rgb(255, 250, 244);
+    box-shadow:  6px 6px 12px #c9c1b6ba,
+             -6px -6px 12px #b6b2b24a;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: small;
+    border-radius: 10px;
+    text-align: center;
 }
