@@ -4,15 +4,21 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    user-select: none;
 }
 body {
     background-color: rgb(241, 229, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .body-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 30px auto;
+    max-width: 300px;
 }
 
 img {
@@ -34,7 +40,7 @@ img {
 #add-button {
     background-color: rgb(134, 94, 103);
     color: bisque;
-    width: 160px;
+    width: 170px;
     border: none;
     border-radius: 10px;
     height: 35px;
@@ -57,4 +63,15 @@ ul li {
     font-size: small;
     border-radius: 10px;
     text-align: center;
+    color: #535353;
+}
+
+#add-button:hover{
+    background-color: rgb(58, 38, 46);
+}
+
+li:hover{
+    cursor: pointer;
+    border: solid;
+    border-color: rgb(134, 94, 103);
 }

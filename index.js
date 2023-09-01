@@ -43,6 +43,7 @@ function addItem(item) {
         let removeItem = ref(database, `items/${itemId}`)
         remove(removeItem)
     })
+    
     shoppinglist.append(itemElement)
 }
 
