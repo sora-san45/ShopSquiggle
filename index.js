@@ -43,13 +43,14 @@ function addItem(item) {
         let removeItem = ref(database, `items/${itemId}`)
         remove(removeItem)
     })
-    
     shoppinglist.append(itemElement)
 }
 
 addButton.addEventListener("click", function () {
     let itemName = inputField.value
-    push(itemsDB, itemName)
+    if(itemName!=""){
+        push(itemsDB, itemName)
+    }
     clearInputField()
     console.log("done")
 })
